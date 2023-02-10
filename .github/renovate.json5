@@ -1,6 +1,8 @@
 {
   "extends": ["github>multani/test-renovate-config:team1"],
 
+  "prHourlyLimit": 50,
+
   "packageRules": [
     {
       "matchPaths": ["dev/**"],
