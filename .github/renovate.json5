@@ -6,17 +6,17 @@
   "packageRules": [
     {
       "matchPaths": ["dev/**"],
-      "additionalBranchPrefix": "{{baseDir}}/",
+      "additionalBranchPrefix": "env-dev/",
       "commitMessageSuffix": " - `{{baseDir}}`",
     },
     {
       "matchPaths": ["int/**"],
-      "additionalBranchPrefix": "{{baseDir}}/",
+      "additionalBranchPrefix": "env-int/",
       "commitMessageSuffix": " - `{{baseDir}}`",
     },
     {
       "matchPaths": ["prod/**"],
-      "additionalBranchPrefix": "{{baseDir}}/",
+      "additionalBranchPrefix": "env-prod/",
       "commitMessageSuffix": " - `{{baseDir}}`",
     },
   ]
