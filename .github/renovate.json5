@@ -7,17 +7,17 @@
     {
       "matchPaths": ["dev/**"],
       "additionalBranchPrefix": "env-dev/",
-      "commitMessageSuffix": " - `{{baseDir}}`",
+      "commitMessageSuffix": " - `dev`",
     },
     {
       "matchPaths": ["int/**"],
       "additionalBranchPrefix": "env-int/",
-      "commitMessageSuffix": " - `{{baseDir}}`",
+      "commitMessageSuffix": " - `int`",
     },
     {
       "matchPaths": ["prod/**"],
       "additionalBranchPrefix": "env-prod/",
-      "commitMessageSuffix": " - `{{baseDir}}`",
+      "commitMessageSuffix": " - `prod`",
     },
   ]
 }
