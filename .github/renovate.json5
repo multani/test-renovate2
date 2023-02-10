@@ -1,5 +1,21 @@
 {
   "extends": ["github>multani/test-renovate-config:team1"],
-  "additionalBranchPrefix": "{{parentDir}}-",
-  "commitMessageSuffix": " - `{{baseDir}}`",
+
+  "packageRules": [
+    {
+      "matchPaths": ["dev/**"],
+      "additionalBranchPrefix": "{{baseDir}}/",
+      "commitMessageSuffix": " - `{{baseDir}}`",
+    },
+    {
+      "matchPaths": ["int/**"],
+      "additionalBranchPrefix": "{{baseDir}}/",
+      "commitMessageSuffix": " - `{{baseDir}}`",
+    },
+    {
+      "matchPaths": ["prod/**"],
+      "additionalBranchPrefix": "{{baseDir}}/",
+      "commitMessageSuffix": " - `{{baseDir}}`",
+    },
+  ]
 }
