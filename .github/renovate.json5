@@ -1,4 +1,5 @@
 {
   "extends": ["github>multani/test-renovate-config:team1"],
   "additionalBranchPrefix": "{{parentDir}}-",
+  "commitMessageSuffix": " - `{{baseDir}}`",
 }
