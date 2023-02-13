@@ -6,19 +6,19 @@
   "packageRules": [
     {
       "matchPaths": ["dev/**"],
-      "matchModules": ["hashicorp/terraform", "terraform-linters/tflint"],
+      "matchPackages": ["hashicorp/terraform", "terraform-linters/tflint"],
       "additionalBranchPrefix": "env-dev/",
       "commitMessageSuffix": " (`dev` only)",
     },
     {
       "matchPaths": ["int/**"],
-      "matchModules": ["hashicorp/terraform", "terraform-linters/tflint"],
+      "matchPackages": ["hashicorp/terraform", "terraform-linters/tflint"],
       "additionalBranchPrefix": "env-int/",
       "commitMessageSuffix": " (`int` only)",
     },
     {
       "matchPaths": ["prod/**"],
-      "matchModules": ["hashicorp/terraform", "terraform-linters/tflint"],
+      "matchPackages": ["hashicorp/terraform", "terraform-linters/tflint"],
       "additionalBranchPrefix": "env-prod/",
       "commitMessageSuffix": " (`prod` only)",
     },
